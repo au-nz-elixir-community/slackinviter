@@ -4,9 +4,9 @@
   "logo": "https://i.imgur.com/8mRVeMn.png",
   "keywords": ["go", "slack"],
   "image": "heroku/go:1.13",
-  "mount_dir": "http://github.com/devopsnz/slackinviter",
-  "website": "https://github.com/devopsnz/slackinviter",
-  "repository": "https://github.com/devopsnz/slackinviter",
+  "mount_dir": "https://github.com/au-nz-elixir-community/slackinviter",
+  "website": "https://github.com/au-nz-elixir-community/slackinviter",
+  "repository": "https://github.com/au-nz-elixir-community/slackinviter",
   "env": {
     "SLACKINVITER_PORT": {
       "description": "The port the webservice should run on",
@@ -26,7 +26,7 @@
     },
     "SLACKINVITER_COCURL": {
       "description": "Url to a code of conduct",
-      "value": "http://coc.golangbridge.org/",
+      "value": "https://github.com/au-nz-elixir-community/code-of-conduct",
       "required": false
     },
     "SLACKINVITER_DEBUG": {
